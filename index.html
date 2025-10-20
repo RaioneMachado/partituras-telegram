@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Partituras Premium - Acesso Ilimitado a Partituras</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Scroll suave para todos os links internos */
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        /* Estilo adicional para garantir que o scroll funcione */
+        section {
+            scroll-margin-top: 80px;
+        }
+    </style>
 </head>
 <body>
 
@@ -43,9 +54,9 @@
                     </div>
                 </div>
                 <div class="hero-cta">
-                    <a href="https://t.me/partituraselouvores_bot" class="btn btn-telegram" target="_blank">
+                    <a href="#cta" class="btn btn-telegram">
                         <span class="telegram-icon">▶</span>
-                        CONVERSE COM NOSSO BOT NO TELEGRAM
+                        ACESSAR BOT DO TELEGRAM AGORA
                     </a>
                     <p class="urgency">Oferta Especial por Tempo Limitado!</p>
                 </div>
@@ -134,7 +145,7 @@
                 </div>
             </div>
             <div class="cta-middle">
-                <a href="https://t.me/partituraselouvores_bot" class="btn btn-telegram" target="_blank">
+                <a href="#cta" class="btn btn-telegram">
                     <span class="telegram-icon">▶</span>
                     ACESSAR BOT DO TELEGRAM AGORA
                 </a>
@@ -246,86 +257,114 @@
             </div>
         </div>
     </section>
-<!-- FAQ Section -->
-<section id="faq" class="faq">
-    <div class="section-background">
-        <div class="light-effect light-12"></div>
-        <div class="light-effect light-13"></div>
-    </div>
-    <div class="container">
-        <h2 class="section-title">Perguntas <span class="highlight">Frequentes</span></h2>
-        <div class="faq-content">
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Como funciona o acesso às partituras?</h3>
-                    <span class="faq-toggle">+</span>
-                </div>
-                <div class="faq-answer">
-                    <p>Após assinar, você terá acesso completo ao nosso grupo de partituras, o grupo sempre é atualizado constantemente com novas partituras!</p>
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Posso cancelar a qualquer momento?</h3>
-                    <span class="faq-toggle">+</span>
-                </div>
-                <div class="faq-answer">
-                    <p>Sim! Não há fidelidade. Você pode cancelar quando quiser apenas parar de pagar já cancela, sem burocracia e sem taxas escondidas.</p>
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Quais instrumentos são atendidos?</h3>
-                    <span class="faq-toggle">+</span>
-                </div>
-                <div class="faq-answer">
-                    <p>Todos! Violão, piano, teclado, guitarra, baixo, bateria, saxofone, flauta, violino, violoncelo, trompete, canto, e muitos outros. Temos partituras para instrumentos solo e conjuntos.</p>
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Há partituras para iniciantes?</h3>
-                    <span class="faq-toggle">+</span>
-                </div>
-                <div class="faq-answer">
-                    <p>Com certeza! Nossa biblioteca inclui material para todos os níveis - desde iniciantes absolutos até músicos avançados. Temos exercícios, músicas simples e arranjos complexos.</p>
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Com que frequência novas partituras são adicionadas?</h3>
-                    <span class="faq-toggle">+</span>
-                </div>
-                <div class="faq-answer">
-                    <p>Adicionamos novas partituras semanalmente! Incluindo lançamentos recentes, clássicos atemporais e sugestões da nossa comunidade.</p>
-                </div>
-            </div>
-            
-            <div class="faq-item">
-                <div class="faq-question">
-                    <h3>Como funciona a garantia de 7 dias?</h3>
-                    <span class="faq-toggle">+</span>
-                </div>
-                <div class="faq-answer">
-                    <p>Se em até 7 dias você não ficar satisfeito, devolvemos 100% do seu dinheiro. Basta nos enviar uma mensagem através do bot do Telegram.</p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="faq-cta">
-            <p>Ainda tem dúvidas? Fale diretamente com nosso suporte!</p>
-            <a href="https://t.me/SeuBotPartiturasOficial" class="btn btn-telegram" target="_blank">
-                <span class="telegram-icon">▶</span>
-                FALAR COM SUPORTE NO TELEGRAM
-            </a>
-        </div>
-    </div>
-</section>
 
-    <script src="script.js"></script>
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="section-background">
+            <div class="light-effect light-12"></div>
+            <div class="light-effect light-13"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Perguntas <span class="highlight">Frequentes</span></h2>
+            <div class="faq-content">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como funciona o acesso às partituras?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Após assinar, você terá acesso completo ao nosso grupo de partituras, o grupo sempre é atualizado constantemente com novas partituras!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Posso cancelar a qualquer momento?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sim! Não há fidelidade. Você pode cancelar quando quiser apenas parar de pagar já cancela, sem burocracia e sem taxas escondidas.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Quais instrumentos são atendidos?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Todos! Violão, piano, teclado, guitarra, baixo, bateria, saxofone, flauta, violino, violoncelo, trompete, canto, e muitos outros. Temos partituras para instrumentos solo e conjuntos.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Há partituras para iniciantes?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Com certeza! Nossa biblioteca inclui material para todos os níveis - desde iniciantes absolutos até músicos avançados. Temos exercícios, músicas simples e arranjos complexos.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Com que frequência novas partituras são adicionadas?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Adicionamos novas partituras semanalmente! Incluindo lançamentos recentes, clássicos atemporais e sugestões da nossa comunidade.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Como funciona a garantia de 7 dias?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Se em até 7 dias você não ficar satisfeito, devolvemos 100% do seu dinheiro. Basta nos enviar uma mensagem através do bot do Telegram.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-cta">
+                <p>Ainda tem dúvidas? Fale com o nosso suporte pelo WhatsApp!</p>
+                <a href="https://wa.me/556281340984?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20saber%20mais%20sobre%20as%20partituras." 
+                   class="btn btn-telegram" target="_blank">
+                    <span class="telegram-icon">▶</span>
+                    FALAR COM SUPORTE NO WHATSAPP
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Script para garantir o funcionamento do scroll suave
+        document.addEventListener('DOMContentLoaded', function() {
+            // Adiciona evento de clique para todos os links com href começando com #
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        // Calcula a posição considerando possível header fixo
+                        const headerOffset = 80;
+                        const elementPosition = targetElement.getBoundingClientRect().top;
+                        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                        window.scrollTo({
+                            top: offsetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
